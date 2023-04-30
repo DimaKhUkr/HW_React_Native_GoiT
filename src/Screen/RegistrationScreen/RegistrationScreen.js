@@ -36,7 +36,7 @@ export default function RegistrationScreen() {
         <TextInput
           value={name}
           onChangeText={onName}
-          placeholder="Логин"
+          placeholder="Login"
           style={styles.input}
         />
         <TextInput
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     ...Platform.select({
       ios: {
-        backgroundColor: "#000",
+        backgroundColor: "#e9e9e9",
       },
       android: {
         backgroundColor: "#fff",

@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     ...Platform.select({
       ios: {
-        backgroundColor: "#000",
+        backgroundColor: "#e9e9e9",
       },
       android: {
         backgroundColor: "#fff",
